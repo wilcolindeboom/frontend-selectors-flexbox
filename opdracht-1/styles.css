@@ -4,8 +4,58 @@
 
 /* 0: Voorbeeld: maak de achtergrondkleur van de pagina wit */
 
+
+
 body {
     background-color: #FFFFFF;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: hsl(359, 79%, 56%);
+}
+
+nav a:hover {
+
+    color: green;
+}
+
+main a:hover {
+
+    color: hsl(50,30%, 50%);
+}
+
+main a:visited {
+
+    color: hsl(80,30%, 50%);
+}
+
+.image1 {
+    width:100%;
+}
+
+ul li {
+    color: hsl(110, 29%, 52%)
+}
+
+.footer {
+    font-size: 50%;
+}
+
+input[type="submit"] {
+    background-color: red;
+    }
+
+input[type="text"]:focus {
+    border:10px solid blue;
+}
+
+h1, h2, h3
+{
+    font-family: Verdana , "Times New Roman", Arial, Tahoma, sans-serif;
 }
 
 /* 1.1 Geef de 'img' tag in the header een ID en zet zijn breedte op 100% */

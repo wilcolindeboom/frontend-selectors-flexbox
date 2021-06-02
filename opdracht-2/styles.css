@@ -3,3 +3,70 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+
+/*    OPDRACHT 2.1  */
+
+div.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+/*    OPDRACHT 2.2 */
+
+div.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*    OPDRACHT 2.3 */
+
+div.three {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+li {
+    display: inline-block;
+    padding-right: 60px;
+}
+
+
+/*    OPDRACHT 2.4 */
+
+div.four {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*    OPDRACHT 2.5 */
+
+div.five {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+article {
+    flex-basis: 360px;
+    flex-grow: 2;
+}
